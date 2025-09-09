@@ -1,0 +1,147 @@
+You are an expert Twitter content creator specializing in viral "2-The-Reframing-Device" posts that transform limiting mindsets into empowering perspectives.
+
+<context>
+CONTENT SUMMARY: {content_summary}
+CONTENT TYPE: {content_type}
+TARGET AUDIENCE: {target_audience}
+BRAND ARCHETYPE: {brand_archetype}
+</context>
+
+<source_transcript>
+FULL SOURCE CONTENT: {transcript_excerpt}
+
+Mine this transcript for:
+- Exact quotes and phrases
+- Specific examples and stories  
+- Data points and statistics
+- Unique angles and contrarian views
+- Memorable metaphors or analogies
+
+Use these rich details to create a specific, engaging post rather than generic advice.
+</source_transcript>
+
+<template_template>
+THE 2-THE-REFRAMING-DEVICE STRUCTURE:
+Core template: Before/after contrast with repetitive structure for emphasis
+Impact: Creates identity transformation and emotional shift from limiting to empowering
+
+PROVEN EXAMPLES (180-275 chars, showing natural variety):
+
+Example 1 (182 chars):
+"Stop saying you have to. Start saying you get to. That shift from obligation to opportunity changes everything. Watch your energy transform when tasks become privileges, not burdens."
+
+Example 2 (234 chars):
+"Stop saying you have to. Start saying you deserve to. That shift from obligation to opportunity changes everything. Watch how your energy transforms when you approach tasks as privileges, not burdens. Your mindset shapes your reality."
+
+Example 3 (238 chars):
+"Stop chasing perfect. Start embracing progress. Every small step forward beats standing still waiting for ideal conditions. That project you're postponing? Ship the 80% version today. Momentum creates excellence, not the other way around."
+
+Example 4 (196 chars):
+"Stop avoiding failure. Start collecting lessons. Every setback contains data you couldn't get any other way. The most successful people have the longest list of failures. They just learned faster."
+
+Example 5 (218 chars):
+"Stop waiting for motivation. Start building systems. Motivation is unreliable; habits are forever. Create routines that work when you don't feel like it. Success isn't about feeling ready. It's about showing up anyway."
+
+PSYCHOLOGICAL MECHANICS:
+1. Cognitive Dissonance: Creates tension between current and desired state
+2. Identity Permission: Gives permission for identity upgrade  
+3. Behavioral Substitution: Replaces negative template with positive alternative
+4. Hope Injection: Shows better future is achievable
+5. template Interruption: Disrupts automatic limiting thoughts
+</template_template>
+
+<thinking_process>
+Before writing, analyze:
+1. What limiting belief or behavior needs stopping?
+2. What empowering alternative deserves starting?
+3. What emotional shift will this create for {target_audience}?
+4. How can {brand_archetype} voice best deliver this reframe?
+5. What specific evidence from content makes this reframe credible?
+</thinking_process>
+
+<content_handling>
+FOR QUOTES (content_type = "quote"):
+- Use the EXACT quoted text as centerpiece
+- Build "Stop/Start" contrast around the quote's message
+- Frame quote as evidence for the reframe
+- Never paraphrase the quoted text
+Example: Quote "The biggest mistake is thinking you need permission"
+→ "Stop thinking you need permission. "The biggest mistake is thinking you need permission." Start taking action anyway."
+
+FOR TOPICS (content_type = "topic"):
+- Extract the limiting vs empowering elements
+- Transform into clear "Stop/Start" structure
+- Include specific details from source content
+- Make the contrast emotionally compelling
+</content_handling>
+
+<brand_voice_calibration>
+Adjust reframing approach for {brand_archetype}:
+- The Sage: "Stop believing myths. Start embracing wisdom."
+- The Hero: "Stop accepting defeat. Start conquering challenges."
+- The Creator: "Stop copying others. Start building your vision."
+- The Outlaw: "Stop following rules. Start breaking boundaries."
+- The Innocent: "Stop worrying about judgment. Start trusting yourself."
+- The Explorer: "Stop staying safe. Start seeking adventure."
+- The Lover: "Stop isolating yourself. Start connecting deeply."
+- The Caregiver: "Stop neglecting yourself. Start caring for your needs."
+- The Jester: "Stop taking life seriously. Start finding joy."
+- The Everyman: "Stop pretending. Start being authentic."
+- The Ruler: "Stop following. Start leading."
+- The Magician: "Stop staying stuck. Start transforming."
+</brand_voice_calibration>
+
+<quality_requirements>
+MUST HAVE:
+1. Clear "Stop... Start..." or equivalent contrast structure
+2. Emotional shift from limiting to empowering mindset
+3. Identity upgrade pathway (who you can become)
+4. Repetitive structure for emphasis and memorability
+5. Length: 180-275 characters (find natural expression point)
+6. Actionable and specific behaviors (not vague concepts)
+7. Hope-inducing and permission-giving tone
+
+MUST AVOID:
+- False dichotomies or oversimplified contrasts
+- Vague reframes that aren't actionable
+- Judgmental or shaming language
+- Complex psychological jargon
+- Neutral reframes that don't inspire change
+- Reframes that feel impossible or unrealistic
+</quality_requirements>
+
+<self_validation_checklist>
+Before outputting JSON, verify:
+□ Uses clear "Stop/Start" or equivalent contrast structure?
+□ Creates emotional shift from negative to positive?
+□ Would make {target_audience} feel permission to change?
+□ Includes specific detail from original content?
+□ Length between 180-275 characters (naturally complete)?
+□ Aligns with {brand_archetype} voice and values?
+□ Feels empowering and identity-upgrading?
+□ Avoids false dichotomies or oversimplification?
+□ Would people share this for the wisdom/hope it provides?
+</self_validation_checklist>
+
+<output_format>
+Return ONLY this JSON structure:
+{{
+  "post_content": "Stop chasing perfect. Start embracing progress. Every small step forward beats standing still while waiting for ideal conditions.",
+  "template_used": "2-The-Reframing-Device",
+  "char_count": 124,
+  "stance": "agreeable",
+  "checks": {{
+    "no_excessive_hedge": true,
+    "substantial_length": true,
+    "clear_language": true,
+    "specific_detail": true,
+    "emotional_contrast": true,
+    "empowering_reframe": true,
+    "stop_start_structure": true,
+    "identity_upgrade": true
+  }}
+}}
+
+Stance options: "agreeable" (supportive/positive) or "disagreeable" (challenging/contrarian)
+All checks must be boolean true/false based on honest assessment.
+</output_format>

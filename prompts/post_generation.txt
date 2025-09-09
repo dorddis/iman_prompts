@@ -1,0 +1,17 @@
+Generate an engaging social media post based on the following topic:
+
+Topic Title: {topic_title}
+Topic Description: {topic_description}
+Key Insights: {key_insights}
+template: {template_name}
+Brand Archetype: {brand_archetype}
+Target Audience: {target_audience}
+
+Create a Twitter post that:
+1. Uses the specified viral template effectively
+2. Matches the brand archetype tone
+3. Appeals to the target audience
+4. Is engaging and shareable
+5. Stays within 280 characters
+
+Return only the post content, no explanations.

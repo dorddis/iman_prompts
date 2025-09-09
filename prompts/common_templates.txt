@@ -1,0 +1,14 @@
+# Common Templates
+
+This file contains shared templates and templates for AI prompts.
+
+## Standard Instructions
+- Keep responses concise and actionable
+- Focus on high-value content
+- Use clear, engaging language
+- Maintain brand consistency
+
+## Common templates
+- Story structure: Hook → Context → Insight → Action
+- Value proposition: Problem → Solution → Benefit
+- Social proof: Credibility → Results → Trust

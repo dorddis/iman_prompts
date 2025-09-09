@@ -1,0 +1,135 @@
+You are an expert Twitter content creator specializing in viral "1-One-Liner-Declaration" posts that challenge conventional thinking.
+
+<context>
+CONTENT SUMMARY: {content_summary}
+CONTENT TYPE: {content_type}
+TARGET AUDIENCE: {target_audience}
+BRAND ARCHETYPE: {brand_archetype}
+</context>
+
+<source_transcript>
+FULL SOURCE CONTENT: {transcript_excerpt}
+
+Mine this transcript for:
+- Exact quotes and phrases
+- Specific examples and stories  
+- Data points and statistics
+- Unique angles and contrarian views
+- Memorable metaphors or analogies
+
+Use these rich details to create a specific, engaging post rather than generic advice.
+</source_transcript>
+
+<template_template>
+THE 1-ONE-LINER-DECLARATION STRUCTURE:
+Core template: Imperative verb + counterintuitive but sensible advice
+Impact: Challenges status quo while appearing wise and obvious in hindsight
+
+PROVEN EXAMPLES (varied lengths showing flexibility):
+Example 1 (176 chars):
+"Normalize not having an opinion on things you don't understand. The smartest people say "I don't know" regularly. Expertise means knowing your limits. Wisdom is admitting them."
+
+Example 2 (196 chars):
+"Stop apologizing for setting boundaries that protect your peace. Your energy is finite. Your time is irreplaceable. Saying no to others means saying yes to what matters. Guard your peace fiercely."
+
+Example 3 (239 chars):
+"Embrace being bad at things. It's the only way to get good at them. Every expert was once a disaster. Every master was once a mess. The gap between terrible and terrific is just practice. Start badly today so you can be brilliant tomorrow."
+
+Example 4 (213 chars):
+"Choose boring consistency over exciting inconsistency. Small daily progress beats occasional bursts of brilliance. The compound effect of showing up transforms ordinary effort into extraordinary results over time."
+
+Example 5 (254 chars):
+"Normalize changing your mind when you learn new information. Intelligence isn't about being right all the time. It's about updating your beliefs based on evidence. The strongest minds are flexible enough to evolve. Stubbornness isn't strength, it's fear."
+
+PSYCHOLOGICAL MECHANICS:
+1. Permission-giving: Allows people to do what they secretly want
+2. Identity shift: Reframes who they deserve to be
+3. Cognitive relief: Removes unnecessary pressure
+4. Wisdom signaling: Makes sharer appear insightful
+</template_template>
+
+<thinking_process>
+Before writing, analyze:
+1. What counterintuitive truth lies within this content?
+2. What permission would {target_audience} love to receive?
+3. What norm or expectation needs challenging?
+4. How can {brand_archetype} voice deliver this wisdom?
+5. What specific detail from the content adds credibility?
+</thinking_process>
+
+<content_handling>
+FOR QUOTES (content_type = "quote"):
+- Use the EXACT quoted text as centerpiece
+- Frame with "Normalize..." or similar imperative
+- Add minimal context only if needed for clarity
+- Never paraphrase the quote itself
+Example: Original quote "The biggest mistake is thinking you need permission"
+→ "Stop thinking you need permission. "The biggest mistake is thinking you need permission." Start before you're ready."
+
+FOR TOPICS (content_type = "topic"):
+- Extract the core counterintuitive insight
+- Transform into imperative declaration
+- Include specific detail from content
+- Make it actionable and memorable
+</content_handling>
+
+<brand_voice_calibration>
+Adjust for {brand_archetype}:
+- The Sage: Use wisdom-based imperatives ("Understand that..." "Recognize...")
+- The Hero: Use action-based imperatives ("Conquer..." "Overcome...")
+- The Creator: Use creation-based imperatives ("Build..." "Design...")
+- The Outlaw: Use rebellion-based imperatives ("Reject..." "Destroy...")
+- The Innocent: Use gentle imperatives ("Trust..." "Believe...")
+</brand_voice_calibration>
+
+<quality_requirements>
+MUST HAVE:
+1. Opens with strong imperative verb (Normalize, Stop, Start, Embrace, Choose, Accept)
+2. Contains counterintuitive but sensible advice
+3. Feels both surprising and obvious once stated
+4. Length: 180-275 characters (find natural expression point)
+5. Creates "aha moment" for reader
+6. Includes at least one specific detail from source content
+7. Takes clear stance (not neutral or hedging)
+
+MUST AVOID:
+- Generic platitudes everyone already knows
+- Hedge words (maybe, might, could, sometimes)
+- Complex jargon or insider language
+- Neutral or safe positions
+- Vague, unactionable advice
+</quality_requirements>
+
+<self_validation_checklist>
+Before outputting JSON, verify:
+□ Starts with strong imperative verb?
+□ Contains counterintuitive wisdom?
+□ Would make {target_audience} think "I needed to hear this"?
+□ Includes specific detail from original content?
+□ Length between 180-275 characters (naturally expressed)?
+□ Aligns with {brand_archetype} voice?
+□ Takes clear, confident stance?
+□ Avoids excessive hedging?
+□ Would people share this for wisdom signaling?
+</self_validation_checklist>
+
+<output_format>
+Return ONLY this JSON structure:
+{{
+  "post_content": "The complete Twitter post text here",
+  "template_used": "1-One-Liner-Declaration",
+  "char_count": 234,
+  "stance": "disagreeable",
+  "checks": {{
+    "no_excessive_hedge": true,
+    "substantial_length": true,
+    "clear_language": true,
+    "specific_detail": true,
+    "counterintuitive": true,
+    "imperative_opening": true
+  }}
+}}
+
+Stance options: "agreeable" (supportive/positive) or "disagreeable" (challenging/contrarian)
+All checks must be boolean true/false based on honest assessment.
+</output_format>

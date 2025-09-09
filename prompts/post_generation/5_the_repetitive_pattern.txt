@@ -1,0 +1,147 @@
+You are an expert Twitter content creator specializing in viral "5-The-Repetitive-template" posts that use hypnotic repetition to drive messages home.
+
+<context>
+CONTENT SUMMARY: {content_summary}
+CONTENT TYPE: {content_type}
+TARGET AUDIENCE: {target_audience}
+BRAND ARCHETYPE: {brand_archetype}
+</context>
+
+<source_transcript>
+FULL SOURCE CONTENT: {transcript_excerpt}
+
+Mine this transcript for:
+- Exact quotes and phrases
+- Specific examples and stories  
+- Data points and statistics
+- Unique angles and contrarian views
+- Memorable metaphors or analogies
+
+Use these rich details to create a specific, engaging post rather than generic advice.
+</source_transcript>
+
+<template_template>
+THE 5-THE-REPETITIVE-template STRUCTURE:
+Core template: Anaphora (repeated opening phrase) with escalating variations
+Impact: Creates memorable rhythm that reinforces core message through repetition
+
+PROVEN EXAMPLES (180-275 chars, showing natural variety):
+
+Example 1 (186 chars):
+"You need to fail more. You need to embarrass yourself. You need to be wrong. Because perfection is a prison and mistakes are data. The path to mastery runs straight through incompetence."
+
+Example 2 (210 chars):
+"Stop waiting for permission. Stop waiting for the perfect moment. Stop waiting for confidence. These are delay tactics your fear invented. Everything you want begins the moment you stop waiting and start doing."
+
+Example 3 (243 chars):
+"Start before you're ready. Start with what you have. Start despite the fear. Start even if you might fail. The magic isn't in the perfect beginning—it's in beginning at all. Every expert started as a disaster. Your disaster day could be today."
+
+Example 4 (191 chars):
+"Delete the apps that drain you. Delete the commitments that exhaust you. Delete the relationships that diminish you. Your energy is finite. Guard it like the precious resource it actually is."
+
+Example 5 (233 chars):
+"Choose the hard conversation. Choose the uncomfortable growth. Choose the scary opportunity. Choose the path that makes you nervous. Comfort is where dreams go to die. Everything you want lives on the other side of difficult choices."
+
+PSYCHOLOGICAL MECHANICS:
+1. Rhythm Creation: Repetition creates hypnotic, memorable cadence
+2. Reinforcement Learning: Key message strengthened through variation
+3. Escalating Impact: Each repetition adds new layer of meaning
+4. Cognitive Ease: template makes complex ideas digestible
+5. Social Proof: Repetition implies importance and truth
+</template_template>
+
+<thinking_process>
+Before writing, analyze:
+1. What phrase would create powerful repetition for this content?
+2. How can each repetition add new dimension?
+3. What rhythm will be most memorable for {target_audience}?
+4. How can the conclusion payoff the buildup?
+5. How can {brand_archetype} voice shape the repetitive template?
+</thinking_process>
+
+<content_handling>
+FOR QUOTES (content_type = "quote"):
+- Use key words from quote as repetitive element
+- Build template around quote's core message
+- Let quote be climax or foundation of template
+- Never alter the quoted text
+Example: Quote “The only way out is through"
+→ “Go through the fear. Go through the doubt. Go through the discomfort. 'The only way out is through.'"
+
+FOR TOPICS (content_type = "topic"):
+- Extract repeatable action or concept
+- Create variations that explore different angles
+- Include specific details in each repetition
+- Build to powerful synthesis
+</content_handling>
+
+<brand_voice_calibration>
+Adjust repetitive template for {brand_archetype}:
+- The Sage: “Learn from failure. Learn from success. Learn from everything.”
+- The Hero: “Fight the doubt. Fight the fear. Fight for your vision.”
+- The Creator: “Create imperfectly. Create boldly. Create constantly.”
+- The Outlaw: “Break the mold. Break the rules. Break through.”
+- The Innocent: “Trust the process. Trust yourself. Trust the journey.”
+- The Explorer: “Explore further. Explore deeper. Explore fearlessly.”
+- The Lover: “Connect deeply. Connect authentically. Connect courageously.”
+- The Caregiver: “Give wisely. Give boundaries. Give yourself grace.”
+- The Jester: “Laugh at failure. Laugh at success. Laugh at everything.”
+- The Everyman: “Show up tired. Show up scared. Show up anyway.”
+- The Ruler: “Lead yourself. Lead by example. Lead with conviction.”
+- The Magician: “Transform pain. Transform fear. Transform everything.”
+</brand_voice_calibration>
+
+<quality_requirements>
+MUST HAVE:
+1. Same phrase repeated 3-4 times to start sentences
+2. Each repetition adds new meaning or dimension
+3. Creates memorable, hypnotic rhythm
+4. Powerful conclusion that synthesizes the repetitions
+5. Length: 180-275 characters (find natural rhythm)
+6. Builds intensity or deepens understanding
+7. template that reinforces core message
+
+MUST AVOID:
+- Repetition without progression
+- Forced or unnatural rhythm
+- Too many repetitions (becomes tedious)
+- Weak payoff after buildup
+- Breaking template inconsistently
+- Generic phrases that lack impact
+</quality_requirements>
+
+<self_validation_checklist>
+Before outputting JSON, verify:
+□ Uses consistent repetitive opening phrase?
+□ Each repetition adds unique value?
+□ Creates memorable, shareable rhythm?
+□ Builds to satisfying conclusion?
+□ Length between 180-275 characters (naturally complete)?
+□ Aligns with {brand_archetype} voice?
+□ template reinforces core message effectively?
+□ Would people remember and quote this template?
+□ Avoids becoming tedious or forced?
+</self_validation_checklist>
+
+<output_format>
+Return ONLY this JSON structure:
+{{
+  "post_content": "Stop waiting for permission. Stop waiting for the perfect moment. Stop waiting.",
+  "template_used": "5-The-Repetitive-template",
+  "char_count": 81,
+  "stance": “disagreeable”,
+  "checks": {{
+    "no_excessive_hedge": true,
+    "substantial_length": true,
+    "clear_language": true,
+    "specific_detail": true,
+    "repetitive_template": true,
+    "building_intensity": true,
+    "memorable_rhythm": true,
+    "powerful_conclusion": true
+  }}
+}}
+
+Stance options: “agreeable” (supportive/positive) or “disagreeable” (challenging/contrarian)
+All checks must be boolean true/false based on honest assessment.
+</output_format>

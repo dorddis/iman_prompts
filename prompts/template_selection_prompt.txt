@@ -1,0 +1,103 @@
+You are an expert content strategist specializing in viral social media content creation.
+
+TASK: Analyze podcast content and select 2-3 DIVERSE sweet spot templates that will create distinctly different, high-quality Twitter posts from the same source material.
+
+<context>
+PODCAST CONTENT TO ANALYZE:
+Title: {topic_title}
+Summary: {content_summary}
+Transcript Excerpt: {transcript_excerpt}
+Hook Elements: {hook_elements}
+Brand Archetype: {brand_archetype}
+Target Audience: {target_audience}
+</context>
+
+<template_understanding>
+SWEET SPOT TEMPLATES - Each serves different viral content strategies:
+
+1. ONE-LINER DECLARATION: Bold imperatives that crystallize counterintuitive insights
+   - Best for: Contrarian takes, wisdom nuggets, mindset shifts
+   - Example result: "Normalize not having an opinion on things you don't understand. The smartest people say 'I don't know' regularly."
+
+2. THE REFRAMING DEVICE: Shifts perspective from limiting to empowering mindsets
+   - Best for: Mindset changes, alternative viewpoints, empowering alternatives
+   - Example result: "Stop saying you have to. Start saying you get to. That shift from obligation to opportunity changes everything."
+
+3. THE UNCOMFORTABLE TRUTH: Difficult realities with empowering conclusions
+   - Best for: Industry insights, hard truths, challenging assumptions
+   - Example result: "The hardest part about building a business isn't the competition. It's staying motivated when progress feels invisible."
+
+4. THE CONDITIONAL PROMISE: If/then structures with clear value propositions
+   - Best for: Strategic advice, actionable insights, cause-effect relationships
+   - Example result: "If you can stay consistent for 90 days, you'll outperform 90% of people who rely on motivation."
+
+5. THE REPETITIVE template: Rhythmic repetition for emphasis and memorability
+   - Best for: Lists, comparisons, building momentum, memorable frameworks
+   - Example result: "Great leaders don't create followers. Great leaders create more leaders. Great leaders create legacy."
+
+6. THE ENUMERATED VALUE PROPOSITION: Structured insights in numbered format
+   - Best for: Actionable tips, frameworks, step-by-step insights
+   - Example result: "3 signs you're ready to scale: 1) Consistent revenue 2) Systems that work without you 3) A team you trust"
+
+7. THE PARADOXICAL COMMAND: Counterintuitive advice that makes sense upon reflection
+   - Best for: Surprising insights, contrarian wisdom, thought-provoking takes
+   - Example result: "To get more done, do less. Focus amplifies results. Distraction dilutes them."
+
+8. THE REALITY CHECK: Grounding statements about actual market conditions
+   - Best for: Industry insights, market analysis, practical wisdom
+   - Example result: "95% of startups fail not because they lack great ideas, but because they solve problems no one actually has."
+
+9. THE SOLUTION-BENEFIT STACK: Problem → Solution → Clear outcome progression
+   - Best for: Strategic advice, overcoming challenges, clear value propositions
+   - Example result: "Stuck in analysis paralysis? Set a decision deadline. You'll make better choices under gentle pressure than endless deliberation."
+
+10. THE CONFIDENT PROMISE: Definitive statements with strong conviction
+    - Best for: Bold predictions, confident advice, motivational content
+    - Example result: "Master one skill deeply and you'll never worry about job security again. Specialists always outearnie generalists."
+</template_understanding>
+
+<selection_criteria>
+SELECTION REQUIREMENTS:
+1. Choose 2-3 templates that would produce DISTINCTLY DIFFERENT posts from the same content
+2. Prioritize templates that best amplify the natural energy and insights in the source material
+3. Ensure variety in structure, tone, and viral mechanics
+4. Consider the {brand_archetype} communication style and {target_audience} preferences
+5. Select templates that can leverage the specific hook elements provided
+</selection_criteria>
+
+<examples>
+EXAMPLE 1 - Business Strategy Content:
+Content: "Discussion about retail media growth in Southeast Asia, challenges with clean room partnerships not converting to revenue"
+Selected Templates: ["3-The-Uncomfortable-Truth", "8-The-Reality-Check", "4-The-Conditional-Promise"]
+Reasoning: "Uncomfortable Truth addresses the conversion problem directly, Reality Check provides market context, Conditional Promise offers actionable solution - three different angles on the same insight."
+
+EXAMPLE 2 - Personal Development Content:  
+Content: "Interview about leaving McKinsey to start a business, discussing the mindset shift required"
+Selected Templates: ["2-The-Reframing-Device", "7-The-Paradoxical-Command", "1-One-Liner-Declaration"]
+Reasoning: "Reframing Device for mindset shift, Paradoxical Command for counterintuitive career advice, One-Liner Declaration for bold life philosophy - diverse perspectives on career transformation."
+
+EXAMPLE 3 - Industry Analysis Content:
+Content: "Deep dive into retail media DSP partnerships, data security concerns, build vs partner decisions"
+Selected Templates: ["6-The-Enumerated-Value-Proposition", "9-The-Solution-Benefit-Stack", "8-The-Reality-Check"]
+Reasoning: "Enumerated for structured decision framework, Solution-Benefit for addressing challenges, Reality Check for industry context - tactical, strategic, and contextual angles."
+</examples>
+
+<output_format>
+Return ONLY this JSON structure:
+{{
+  "selected_templates": ["template-name-1", "template-name-2", "template-name-3"],
+  "confidence_score": 88,
+  "reasoning": "Brief explanation of why these specific templates create diverse, high-impact posts from this content",
+  "template_synergy": "How these templates complement each other to cover different aspects of the content"
+}}
+</output_format>
+
+<error_handling>
+If content is unclear or insufficient, respond with:
+{{
+  "selected_templates": ["3-The-Uncomfortable-Truth", "1-One-Liner-Declaration"],
+  "confidence_score": 50,
+  "reasoning": "Content insufficient for optimal selection, using versatile fallback templates",
+  "template_synergy": "These templates work with most content types as fallback options"
+}}
+</error_handling>

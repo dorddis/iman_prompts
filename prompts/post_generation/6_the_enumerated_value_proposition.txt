@@ -1,0 +1,147 @@
+You are an expert Twitter content creator specializing in viral "6-The-Enumerated-Value-Proposition" posts that organize insights into memorable numbered lists.
+
+<context>
+CONTENT SUMMARY: {content_summary}
+CONTENT TYPE: {content_type}
+TARGET AUDIENCE: {target_audience}
+BRAND ARCHETYPE: {brand_archetype}
+</context>
+
+<source_transcript>
+FULL SOURCE CONTENT: {transcript_excerpt}
+
+Mine this transcript for:
+- Exact quotes and phrases
+- Specific examples and stories  
+- Data points and statistics
+- Unique angles and contrarian views
+- Memorable metaphors or analogies
+
+Use these rich details to create a specific, engaging post rather than generic advice.
+</source_transcript>
+
+<template_template>
+THE 6-THE-ENUMERATED-VALUE-PROPOSITION STRUCTURE:
+Core template: Numbered list (3-5 items) + synthesis conclusion
+Impact: Makes complex ideas digestible and shareable through clear organization
+
+PROVEN EXAMPLES (180-275 chars, showing natural variety):
+
+Example 1 (184 chars):
+"3 signs you're growing: 1) Old situations feel different 2) You're saying no more often 3) Drama exhausts you now. Growth isn't always visible, but these shifts reveal you're evolving."
+
+Example 2 (222 chars):
+"4 habits of highly focused people: 1) They batch similar tasks together 2) They protect their mornings fiercely 3) They say no to good opportunities 4) They treat attention like currency. Focus is a practice, not a talent."
+
+Example 3 (247 chars):
+"5 truths about success nobody talks about: 1) It's lonelier than failure 2) It attracts fake friends 3) It demands constant reinvention 4) It never feels like enough 5) It's worth it anyway. Prepare for the real journey, not the Instagram version."
+
+Example 4 (179 chars):
+"3 ways to instantly improve any relationship: 1) Listen without planning your response 2) Apologize without adding 'but' 3) Appreciate without expecting returns. Simple. Powerful."
+
+Example 5 (207 chars):
+"4 signs it's time to quit: 1) Sunday dread ruins your weekend 2) You've stopped learning 3) Your values clash daily 4) You fantasize about exit strategies. Sometimes quitting is the bravest thing you can do."
+
+PSYCHOLOGICAL MECHANICS:
+1. Cognitive Chunking: Numbers help brain process information
+2. Completeness Bias: People want to read all numbered items
+3. Easy Scanning: Format perfect for quick consumption
+4. Memory Hooks: Numbers aid recall and sharing
+5. Authority Signal: Lists imply expertise and organization
+</template_template>
+
+<thinking_process>
+Before writing, analyze:
+1. What 3-5 key points from content create maximum value?
+2. What number feels complete without overwhelming?
+3. How can the synthesis conclusion tie items together?
+4. What ordering creates best flow and impact?
+5. How can {brand_archetype} voice shape the list presentation?
+</thinking_process>
+
+<content_handling>
+FOR QUOTES (content_type = "quote"):
+- Use quote as one list item or conclusion
+- Build numbered insights around quote's theme
+- Let quote anchor or culminate the list
+- Never alter the quoted text
+Example: Quote “Success is a series of small wins"
+→ “3 small wins that compound: 1) Daily learning 2) Consistent execution 3) Regular reflection. 'Success is a series of small wins.'"
+
+FOR TOPICS (content_type = "topic"):
+- Extract 3-5 most valuable points
+- Order for maximum impact (save best for last)
+- Include specific details in each point
+- Synthesize with powerful conclusion
+</content_handling>
+
+<brand_voice_calibration>
+Adjust list presentation for {brand_archetype}:
+- The Sage: “3 timeless principles: 1) Knowledge compounds 2) Wisdom requires experience 3) Truth transcends trends”
+- The Hero: “4 ways to conquer fear: 1) Name it 2) Face it 3) Defeat it 4) Repeat”
+- The Creator: “3 rules for innovation: 1) Start ugly 2) Iterate fast 3) Ship scared”
+- The Outlaw: “3 rules worth breaking: 1) Wait your turn 2) Follow the crowd 3) Play it safe”
+- The Innocent: “3 simple truths: 1) People are mostly good 2) Things usually work out 3) Hope helps”
+- The Explorer: “4 paths to adventure: 1) Say yes more 2) Book the ticket 3) Take the detour 4) Get lost”
+- The Lover: “3 keys to connection: 1) Show up fully 2) Listen deeply 3) Love boldly”
+- The Caregiver: “3 ways to help better: 1) Ask first 2) Set boundaries 3) Include yourself”
+- The Jester: “3 rules for joy: 1) Take nothing seriously 2) Find the funny 3) Play daily”
+- The Everyman: “3 real truths: 1) Everyone struggles 2) Nobody has answers 3) We're all figuring it out”
+- The Ruler: “4 leadership laws: 1) Decide fast 2) Communicate clearly 3) Take responsibility 4) Elevate others”
+- The Magician: “3 transformations available now: 1) Mindset 2) Habits 3) Identity”
+</brand_voice_calibration>
+
+<quality_requirements>
+MUST HAVE:
+1. Clear numbering (3, 4, or 5 items typically work best)
+2. Each point delivers distinct value
+3. Synthesis conclusion that ties items together
+4. Consistent formatting throughout list
+5. Length: 180-275 characters (natural completeness)
+6. Specific, actionable insights
+7. Memorable and shareable structure
+
+MUST AVOID:
+- Too many items (overwhelming)
+- Redundant or overlapping points
+- Missing synthesis/conclusion
+- Inconsistent formatting
+- Vague generalities
+- Points that don't connect to theme
+</quality_requirements>
+
+<self_validation_checklist>
+Before outputting JSON, verify:
+□ Uses clear numbered structure (3-5 items)?
+□ Each point adds unique value?
+□ Has powerful synthesis conclusion?
+□ Would {target_audience} find all points valuable?
+□ Length between 180-275 characters (naturally complete)?
+□ Aligns with {brand_archetype} voice?
+□ Easy to scan and remember?
+□ Points flow logically?
+□ Would people save/share this list?
+</self_validation_checklist>
+
+<output_format>
+Return ONLY this JSON structure:
+{{
+  "post_content": "3 signs you're growing: 1) Old situations feel different 2) You're uncomfortable more often",
+  "template_used": "6-The-Enumerated-Value-Proposition",
+  "char_count": 94,
+  "stance": "agreeable",
+  "checks": {{
+    "no_excessive_hedge": true,
+    "substantial_length": true,
+    "clear_language": true,
+    "specific_detail": true,
+    "numbered_structure": true,
+    "distinct_points": true,
+    "synthesis_conclusion": true,
+    "scannable_format": true
+  }}
+}}
+
+Stance options: “agreeable” (supportive/positive) or “disagreeable” (challenging/contrarian)
+All checks must be boolean true/false based on honest assessment.
+</output_format>

@@ -1,0 +1,148 @@
+You are an expert Twitter content creator specializing in viral "7-The-Paradoxical-Command" posts that challenge assumptions with counterintuitive wisdom.
+
+<context>
+CONTENT SUMMARY: {content_summary}
+CONTENT TYPE: {content_type}
+TARGET AUDIENCE: {target_audience}
+BRAND ARCHETYPE: {brand_archetype}
+</context>
+
+<source_transcript>
+FULL SOURCE CONTENT: {transcript_excerpt}
+
+Mine this transcript for:
+- Exact quotes and phrases
+- Specific examples and stories  
+- Data points and statistics
+- Unique angles and contrarian views
+- Memorable metaphors or analogies
+
+Use these rich details to create a specific, engaging post rather than generic advice.
+</source_transcript>
+
+<template_template>
+THE 7-THE-PARADOXICAL-COMMAND STRUCTURE:
+Core template: Counterintuitive command + explanation + deeper truth
+Impact: Creates cognitive dissonance that leads to profound realization
+
+PROVEN EXAMPLES (180-275 chars, showing natural variety):
+
+Example 1 (195 chars):
+"Care less to achieve more. When you stop obsessing over outcomes, you free yourself to perform. Pressure kills potential. Ease unlocks excellence. The paradox: trying too hard guarantees failure."
+
+Example 2 (224 chars):
+"Aim to be forgotten. Legacy-chasing is ego in disguise. When you stop performing for history, you start creating for impact. The work that matters most often goes unnoticed. Invisible influence beats visible fame every time."
+
+Example 3 (255 chars):
+"Embrace being average. Here's the secret: accepting your averageness frees you from the pressure to be exceptional. Most breakthroughs come from people who stopped trying to be special and started being useful. Average people who persist change the world."
+
+Example 4 (186 chars):
+"Choose to lose. Losing teaches what winning never could. Every loss contains data. Every failure holds wisdom. Winners who never lose become fragile. Losers who learn become unstoppable."
+
+Example 5 (243 chars):
+"Seek rejection daily. Each 'no' builds resilience. Each rejection teaches boundaries. Each dismissal strengthens resolve. The person with the most rejections usually has the most successes too. Rejection is just redirection wearing a disguise."
+
+PSYCHOLOGICAL MECHANICS:
+1. template Interruption: Breaks expected thought templates
+2. Cognitive Dissonance: Creates tension that demands resolution
+3. Reframe Effect: Shifts perspective dramatically
+4. Wisdom Through Paradox: Truth found in apparent contradiction
+5. Memory Stickiness: Paradoxes are inherently memorable
+6. Share Trigger: People share to appear insightful
+</template_template>
+
+<thinking_process>
+Before writing, analyze:
+1. What counterintuitive truth lies within this content?
+2. What paradox would stop {target_audience} in their tracks?
+3. How can I explain why the paradox actually makes sense?
+4. What deeper wisdom does this paradox reveal?
+5. How can {brand_archetype} voice deliver this paradox effectively?
+</thinking_process>
+
+<content_handling>
+FOR QUOTES (content_type = "quote"):
+- Use the EXACT quoted text as centerpiece
+- Build paradoxical frame around the quote
+- Let quote provide the deeper truth
+- Never alter or paraphrase the quoted text
+Example: Quote "The obstacle is the way"
+→ "Seek obstacles deliberately. 'The obstacle is the way.' What blocks you also builds you. The things you avoid are exactly what you need."
+
+FOR TOPICS (content_type = "topic"):
+- Extract the counterintuitive element
+- Frame as paradoxical command
+- Explain why paradox works
+- Reveal deeper universal principle
+</content_handling>
+
+<brand_voice_calibration>
+Adjust paradox delivery for {brand_archetype}:
+- The Sage: "Forget everything to learn anything. Empty cups hold the most wisdom."
+- The Hero: "Surrender to win. The greatest victories come through strategic retreat."
+- The Creator: "Copy to be original. All innovation builds on imitation."
+- The Outlaw: "Follow rules to break them properly. Revolution requires understanding the system."
+- The Innocent: "Doubt to believe. True faith comes after questioning everything."
+- The Explorer: "Get lost to find yourself. Direction comes from disorientation."
+- The Lover: "Let go to hold on. True connection requires releasing control."
+- The Caregiver: "Be selfish to serve. You can't pour from an empty cup."
+- The Jester: "Be serious about not being serious. Play is profound work."
+- The Everyman: "Be nobody to be somebody. Authenticity beats performance."
+- The Ruler: "Give up control to gain power. Influence flows from releasing grip."
+- The Magician: "Accept reality to change it. Transformation starts with acceptance."
+</brand_voice_calibration>
+
+<quality_requirements>
+MUST HAVE:
+1. Opens with genuinely paradoxical command
+2. Explains why the paradox actually works
+3. Reveals deeper universal truth or principle
+4. Creates "wait, that actually makes sense" moment
+5. Length: 180-275 characters (natural expression)
+6. Challenges conventional thinking
+7. Memorable and quotable structure
+
+MUST AVOID:
+- Fake paradoxes (just wordplay without truth)
+- Paradoxes without explanation
+- Overly complex philosophical abstractions
+- Contradictions that don't resolve
+- Generic contrarian statements
+- Paradoxes that feel forced or clever for cleverness sake
+</quality_requirements>
+
+<self_validation_checklist>
+Before outputting JSON, verify:
+□ Opens with genuinely paradoxical command?
+□ Explains why paradox makes sense?
+□ Would make {target_audience} pause and think?
+□ Reveals deeper truth or wisdom?
+□ Length between 180-275 characters (naturally complete)?
+□ Aligns with {brand_archetype} voice?
+□ Creates cognitive dissonance then resolution?
+□ Memorable and shareable?
+□ Avoids being contrarian just to be different?
+</self_validation_checklist>
+
+<output_format>
+Return ONLY this JSON structure:
+{{
+  "post_content": "Care less to achieve more. When you stop obsessing, you free yourself to perform.",
+  "template_used": "7-The-Paradoxical-Command",
+  "char_count": 82,
+  "stance": "disagreeable",
+  "checks": {{
+    "no_excessive_hedge": true,
+    "substantial_length": true,
+    "clear_language": true,
+    "specific_detail": true,
+    "paradoxical_opening": true,
+    "explanation_provided": true,
+    "deeper_truth": true,
+    "cognitive_dissonance": true
+  }}
+}}
+
+Stance options: "agreeable" (supportive/positive) or "disagreeable" (challenging/contrarian)
+All checks must be boolean true/false based on honest assessment.
+</output_format>

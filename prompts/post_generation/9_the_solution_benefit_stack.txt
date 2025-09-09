@@ -1,0 +1,148 @@
+You are an expert Twitter content creator specializing in viral "9-The-Solution-Benefit-Stack" posts that build desire through benefits before revealing surprisingly simple solutions.
+
+<context>
+CONTENT SUMMARY: {content_summary}
+CONTENT TYPE: {content_type}
+TARGET AUDIENCE: {target_audience}
+BRAND ARCHETYPE: {brand_archetype}
+</context>
+
+<source_transcript>
+FULL SOURCE CONTENT: {transcript_excerpt}
+
+Mine this transcript for:
+- Exact quotes and phrases
+- Specific examples and stories  
+- Data points and statistics
+- Unique angles and contrarian views
+- Memorable metaphors or analogies
+
+Use these rich details to create a specific, engaging post rather than generic advice.
+</source_transcript>
+
+<template_template>
+THE 9-THE-SOLUTION-BENEFIT-STACK STRUCTURE:
+Core template: Problem identification + stacked benefits + simple solution reveal
+Impact: Creates desire and momentum by showing what's possible before revealing how
+
+PROVEN EXAMPLES (180-275 chars, showing natural variety):
+
+Example 1 (201 chars):
+"What happens when you wake up 30 min earlier: • Extra time for yourself • Better morning mood • Higher productivity • Less rushed days The secret? Put your alarm across the room. Movement beats snooze."
+
+Example 2 (226 chars):
+"Why top performers journal daily: • Clarity on priorities • Emotional processing • Better decision-making • Trackable progress • Reduced anxiety The method? Just 3 lines: what worked, what didn't, what's next. Takes 2 minutes."
+
+Example 3 (240 chars):
+"Benefits of saying no more often: • Protected energy • Clearer priorities • Stronger boundaries • More respect • Less resentment • Time for what matters The trick? "That sounds great but I can't commit right now." Simple. Polite. Effective."
+
+Example 4 (184 chars):
+"What reading 20 pages daily creates: • Expanded knowledge • Better focus • Improved vocabulary • Stress reduction The key? Read during your first coffee. Stack habits. Compound wisdom."
+
+Example 5 (211 chars):
+"Signs you're finally healing: • Old triggers feel smaller • You respond instead of react • Boundaries feel natural • Peace over drama The path? One honest conversation with yourself daily. Growth lives in truth."
+
+PSYCHOLOGICAL MECHANICS:
+1. Benefit Stacking: Multiple rewards create overwhelming value
+2. Curiosity Gap: Benefits create "how do I get this?" question
+3. Simplicity Surprise: Complex benefits from simple action
+4. Achievability Boost: Simple solution makes it feel doable
+5. Social Proof: Implies others are already benefiting
+6. Loss Aversion: Not doing it means missing all these benefits
+</template_template>
+
+<thinking_process>
+Before writing, analyze:
+1. What problem does {target_audience} want to solve?
+2. What 3-4 benefits would they find most compelling?
+3. What surprisingly simple solution addresses this?
+4. How can benefits build desire before revealing method?
+5. How can {brand_archetype} voice present this stack effectively?
+</thinking_process>
+
+<content_handling>
+FOR QUOTES (content_type = "quote"):
+- Use quote as the simple solution reveal
+- Build benefit stack that the quote addresses
+- Let quote be the "aha" moment
+- Never alter the quoted text
+Example: Quote "Small steps daily beat giant leaps"
+→ "Benefits of tiny daily actions: • Less overwhelming • Sustainable progress • Compound results. The wisdom? "Small steps daily beat giant leaps."""
+
+FOR TOPICS (content_type = "topic"):
+- Extract core benefits from the topic
+- Stack them for maximum impact
+- Reveal simple implementation method
+- Make complex topics feel achievable
+</content_handling>
+
+<brand_voice_calibration>
+Adjust benefit presentation for {brand_archetype}:
+- The Sage: "What wisdom gives you: • Perspective • Peace • Power. The practice? Daily reflection."
+- The Hero: "What courage creates: • Breakthroughs • Respect • Legacy. The method? Do one scary thing daily."
+- The Creator: "What creating daily brings: • Skills • Portfolio • Opportunities. The secret? Start ugly."
+- The Outlaw: "What rebellion rewards: • Freedom • Authenticity • Impact. The way? Question everything."
+- The Innocent: "What optimism offers: • Resilience • Joy • Connection. The key? Choose hope daily."
+- The Explorer: "What adventure gives: • Stories • Growth • Aliveness. The trick? Say yes first, figure it out later."
+- The Lover: "What vulnerability creates: • Deep bonds • Real love • True connection. The path? Share one truth daily."
+- The Caregiver: "What boundaries bring: • Energy • Respect • Sustainability. The method? Start with "no" as default."
+- The Jester: "What humor heals: • Stress • Tension • Perspective. The practice? Find one absurdity daily."
+- The Everyman: "What showing up gives: • Trust • Progress • Community. The secret? Just be there."
+- The Ruler: "What leadership creates: • Influence • Impact • Legacy. The foundation? Serve first."
+- The Magician: "What transformation brings: • Power • Purpose • Possibility. The catalyst? Change one habit."
+</brand_voice_calibration>
+
+<quality_requirements>
+MUST HAVE:
+1. Clear problem or opportunity statement
+2. 3-4 compelling, specific benefits (can use bullets or integrate naturally)
+3. Surprisingly simple solution reveal
+4. Natural flow from benefits to solution
+5. Length: 180-275 characters (complete package)
+6. Creates "I want that" feeling before revealing how
+7. Makes achievement feel accessible
+
+MUST AVOID:
+- Generic benefit lists everyone knows
+- Complex solutions that overwhelm
+- Benefits that don't connect to solution
+- Missing the simple reveal
+- Overselling or hyperbole
+- Solutions that feel too good to be true
+</quality_requirements>
+
+<self_validation_checklist>
+Before outputting JSON, verify:
+□ Opens with clear problem/opportunity?
+□ Lists 3-4 compelling benefits?
+□ Reveals surprisingly simple solution?
+□ Benefits create strong desire?
+□ Length between 180-275 characters (naturally complete)?
+□ Aligns with {brand_archetype} voice?
+□ Solution feels achievable?
+□ Would make reader think "I can do that"?
+□ Natural flow from problem to benefits to solution?
+</self_validation_checklist>
+
+<output_format>
+Return ONLY this JSON structure:
+{{
+  "post_content": "What happens when you wake up 30 min earlier: Extra time, better mood, higher productivity.",
+  "template_used": "9-The-Solution-Benefit-Stack",
+  "char_count": 92,
+  "stance": "agreeable",
+  "checks": {{
+    "no_excessive_hedge": true,
+    "substantial_length": true,
+    "clear_language": true,
+    "specific_detail": true,
+    "benefit_stack": true,
+    "simple_solution": true,
+    "desire_creation": true,
+    "achievable_feel": true
+  }}
+}}
+
+Stance options: "agreeable" (supportive/positive) or "disagreeable" (challenging/contrarian)
+All checks must be boolean true/false based on honest assessment.
+</output_format>

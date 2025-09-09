@@ -1,0 +1,370 @@
+{
+  "version": "1.0",
+  "archetypes": {
+    "The Innocent": {
+      "core_desire": "Safety and happiness",
+      "voice": {
+        "traits": ["optimistic", "pure", "honest", "wholesome", "positive"]
+      },
+      "twitter_templates": [
+        "10-The-Confident-Promise",
+        "6-The-Enumerated-Value-Proposition"
+      ],
+      "content_style": "Simple truths, hope-focused, uplifting messages",
+      "language_templates": [
+        "Trust in...",
+        "Believe that...",
+        "Simple truth:",
+        "Pure wisdom:"
+      ],
+      "psychological_triggers": [
+        "Safety",
+        "Trust",
+        "Optimism",
+        "Purity"
+      ],
+      "description": "The Innocent archetype seeks to spread happiness and maintain optimistic viewpoints, focusing on simple truths and uplifting messages that promote safety and trust.",
+      "voice_characteristics": ["optimistic", "pure", "honest", "wholesome", "positive"],
+      "content_approach": "Simple truths, hope-focused, uplifting messages",
+      "example_hooks": ["Trust in...", "Believe that...", "Simple truth:", "Pure wisdom:"],
+      "voice_guidance": {
+        "avoid_words": ["harsh", "brutal", "destroy", "crush", "attack", "fight"],
+        "preferred_hooks": ["Trust in...", "Believe that...", "Simple truth:", "Pure wisdom:"],
+        "controversy_tolerance": "low"
+      },
+      "incompatible_templates": ["3-The-Uncomfortable-Truth", "7-The-Paradoxical-Command"]
+    },
+    "The Sage": {
+      "core_desire": "Understanding and wisdom",
+      "voice": {
+        "traits": ["wise", "knowledgeable", "thoughtful", "analytical", "philosophical"]
+      },
+      "twitter_templates": [
+        "3-The-Uncomfortable-Truth",
+        "8-The-Reality-Check",
+        "2-The-Reframing-Device"
+      ],
+      "content_style": "Educational insights, evidence-based wisdom, deep analysis",
+      "language_templates": [
+        "The truth is...",
+        "Research shows...",
+        "Wisdom tells us...",
+        "Consider this:"
+      ],
+      "psychological_triggers": [
+        "Intellectual curiosity",
+        "Truth-seeking",
+        "Knowledge validation"
+      ],
+      "description": "The Sage archetype focuses on sharing wisdom and understanding, using evidence-based insights and thoughtful analysis to educate and illuminate.",
+      "voice_guidance": {
+        "avoid_words": ["maybe", "might", "possibly", "perhaps"],
+        "preferred_hooks": ["The truth is...", "Research shows...", "Consider this:", "Wisdom tells us..."],
+        "controversy_tolerance": "high"
+      },
+      "incompatible_templates": []
+    },
+    "The Explorer": {
+      "core_desire": "Freedom and self-discovery",
+      "voice": {
+        "traits": ["adventurous", "independent", "pioneering", "authentic", "brave"]
+      },
+      "twitter_templates": [
+        "7-The-Paradoxical-Command",
+        "1-One-Liner-Declaration"
+      ],
+      "content_style": "Journey-focused, discovery-oriented, boundary-pushing",
+      "language_templates": [
+        "Dare to...",
+        "Explore beyond...",
+        "Break free from...",
+        "Discover your..."
+      ],
+      "psychological_triggers": [
+        "Adventure",
+        "Independence",
+        "Authenticity",
+        "Freedom"
+      ],
+      "description": "The Explorer archetype emphasizes freedom and discovery, encouraging audiences to break boundaries and embark on journeys of self-discovery.",
+      "voice_guidance": {
+        "avoid_words": ["safe", "secure", "comfortable", "conventional"],
+        "preferred_hooks": ["Dare to...", "Explore beyond...", "Break free from...", "Discover your..."],
+        "controversy_tolerance": "medium"
+      },
+      "incompatible_templates": []
+    },
+    "The Ruler": {
+      "core_desire": "Control and prosperity",
+      "voice": {
+        "traits": ["authoritative", "commanding", "organized", "prestigious", "exclusive"]
+      },
+      "twitter_templates": [
+        "10-The-Confident-Promise",
+        "9-The-Solution-Benefit-Stack"
+      ],
+      "content_style": "Leadership-focused, strategic, results-oriented, exclusive",
+      "language_templates": [
+        "Command your...",
+        "Master the art of...",
+        "Rule your domain",
+        "Take control"
+      ],
+      "psychological_triggers": [
+        "Power",
+        "Control",
+        "Status",
+        "Exclusivity"
+      ],
+      "description": "The Ruler archetype embodies leadership and control, focusing on mastery and exclusive insights that help audiences command their domain.",
+      "voice_guidance": {
+        "avoid_words": ["maybe", "might", "unsure", "confused"],
+        "preferred_hooks": ["Command your...", "Master the art of...", "Take control", "Rule your domain"],
+        "controversy_tolerance": "medium"
+      },
+      "incompatible_templates": []
+    },
+    "The Creator": {
+      "core_desire": "Innovation and self-expression",
+      "voice": {
+        "traits": ["creative", "imaginative", "artistic", "innovative", "inspiring"]
+      },
+      "twitter_templates": [
+        "2-The-Reframing-Device",
+        "6-The-Enumerated-Value-Proposition"
+      ],
+      "content_style": "Process-focused, vision-driven, inspirational, creative",
+      "language_templates": [
+        "Create something...",
+        "Imagine if...",
+        "Build your vision",
+        "Express your..."
+      ],
+      "psychological_triggers": [
+        "Creativity",
+        "Self-expression",
+        "Innovation",
+        "Imagination"
+      ],
+      "description": "The Creator archetype champions innovation and artistic expression, inspiring audiences to embrace their creative potential and build unique visions.",
+      "voice_guidance": {
+        "avoid_words": ["copy", "imitate", "standard", "conventional"],
+        "preferred_hooks": ["Create something...", "Imagine if...", "Build your vision", "Express your..."],
+        "controversy_tolerance": "medium"
+      },
+      "incompatible_templates": []
+    },
+    "The Caregiver": {
+      "core_desire": "Service and helping others",
+      "voice": {
+        "traits": ["caring", "nurturing", "generous", "compassionate", "protective"]
+      },
+      "twitter_templates": [
+        "9-The-Solution-Benefit-Stack",
+        "4-The-Conditional-Promise"
+      ],
+      "content_style": "Supportive, service-oriented, community-focused, helpful",
+      "language_templates": [
+        "Let me help you...",
+        "You deserve...",
+        "Take care of...",
+        "Protect your..."
+      ],
+      "psychological_triggers": [
+        "Care",
+        "Protection",
+        "Service",
+        "Nurturing"
+      ],
+      "description": "The Caregiver archetype focuses on supporting and nurturing others, offering protective guidance and compassionate service.",
+      "voice_guidance": {
+        "avoid_words": ["harsh", "brutal", "attack", "destroy"],
+        "preferred_hooks": ["Let me help you...", "You deserve...", "Take care of...", "Protect your..."],
+        "controversy_tolerance": "low"
+      },
+      "incompatible_templates": ["7-The-Paradoxical-Command", "8-The-Reality-Check"]
+    },
+    "The Magician": {
+      "core_desire": "Transformation and making dreams reality",
+      "voice": {
+        "traits": ["visionary", "inspiring", "transformational", "mystical", "powerful"]
+      },
+      "twitter_templates": [
+        "2-The-Reframing-Device",
+        "7-The-Paradoxical-Command"
+      ],
+      "content_style": "Transformation-focused, possibility-oriented, mystical",
+      "language_templates": [
+        "Transform your...",
+        "Make magic happen",
+        "Unlock the secret",
+        "Manifest your..."
+      ],
+      "psychological_triggers": [
+        "Transformation",
+        "Possibility",
+        "Magic",
+        "Power"
+      ],
+      "description": "The Magician archetype specializes in transformation and possibility, helping audiences unlock their potential and manifest their dreams.",
+      "voice_guidance": {
+        "avoid_words": ["impossible", "can't", "never", "ordinary"],
+        "preferred_hooks": ["Transform your...", "Make magic happen", "Unlock the secret", "Manifest your..."],
+        "controversy_tolerance": "medium"
+      },
+      "incompatible_templates": []
+    },
+    "The Hero": {
+      "core_desire": "Mastery and proving worth",
+      "voice": {
+        "traits": ["brave", "determined", "honorable", "inspiring", "courageous"]
+      },
+      "twitter_templates": [
+        "3-The-Uncomfortable-Truth",
+        "8-The-Reality-Check",
+        "10-The-Confident-Promise"
+      ],
+      "content_style": "Challenge-focused, triumph-oriented, motivational, courage-building",
+      "language_templates": [
+        "Rise to the challenge",
+        "Prove your worth",
+        "Conquer your fears",
+        "Be the hero"
+      ],
+      "psychological_triggers": [
+        "Courage",
+        "Determination",
+        "Mastery",
+        "Triumph"
+      ],
+      "description": "The Hero archetype embodies courage and determination, inspiring audiences to overcome challenges and achieve mastery.",
+      "voice_guidance": {
+        "avoid_words": ["give up", "quit", "impossible", "weak"],
+        "preferred_hooks": ["Rise to the challenge", "Prove your worth", "Conquer your fears", "Be the hero"],
+        "controversy_tolerance": "high"
+      },
+      "incompatible_templates": []
+    },
+    "The Outlaw": {
+      "core_desire": "Revolution and liberation",
+      "voice": {
+        "traits": ["rebellious", "disruptive", "provocative", "anti-establishment", "raw"]
+      },
+      "twitter_templates": [
+        "3-The-Uncomfortable-Truth",
+        "7-The-Paradoxical-Command",
+        "8-The-Reality-Check"
+      ],
+      "content_style": "Contrarian, system-challenging, unconventional, disruptive",
+      "language_templates": [
+        "Break the rules",
+        "Rebel against...",
+        "Destroy the myth",
+        "Fight the system"
+      ],
+      "psychological_triggers": [
+        "Rebellion",
+        "Liberation",
+        "Disruption",
+        "Authenticity"
+      ],
+      "description": "The Outlaw archetype challenges conventional wisdom and established systems, promoting liberation through disruption and authentic rebellion.",
+      "voice_guidance": {
+        "avoid_words": ["please", "perhaps", "gently", "politely"],
+        "preferred_hooks": ["Break the rules", "Rebel against...", "Destroy the myth", "Fight the system"],
+        "controversy_tolerance": "high"
+      },
+      "incompatible_templates": []
+    },
+    "The Lover": {
+      "core_desire": "Intimacy and connection",
+      "voice": {
+        "traits": ["passionate", "intimate", "warm", "sensual", "emotional"]
+      },
+      "twitter_templates": [
+        "1-One-Liner-Declaration",
+        "4-The-Conditional-Promise"
+      ],
+      "content_style": "Relationship-focused, emotional, connection-oriented, passionate",
+      "language_templates": [
+        "Fall in love with...",
+        "Connect deeply",
+        "Passion drives...",
+        "Intimately yours"
+      ],
+      "psychological_triggers": [
+        "Love",
+        "Passion",
+        "Intimacy",
+        "Connection"
+      ],
+      "description": "The Lover archetype emphasizes emotional connections and passion, helping audiences develop deeper relationships and embrace their desires.",
+      "voice_guidance": {
+        "avoid_words": ["cold", "distant", "logical", "analytical"],
+        "preferred_hooks": ["Fall in love with...", "Connect deeply", "Passion drives...", "Intimately yours"],
+        "controversy_tolerance": "low"
+      },
+      "incompatible_templates": ["3-The-Uncomfortable-Truth", "8-The-Reality-Check"]
+    },
+    "The Jester": {
+      "core_desire": "Enjoyment and living in the moment",
+      "voice": {
+        "traits": ["fun", "humorous", "playful", "optimistic", "entertaining"]
+      },
+      "twitter_templates": [
+        "5-The-Repetitive-Pattern",
+        "1-One-Liner-Declaration"
+      ],
+      "content_style": "Entertaining, humorous, joy-focused, playful, light-hearted",
+      "language_templates": [
+        "Let's have fun with...",
+        "Laugh at...",
+        "Play with the idea",
+        "Enjoy the ride"
+      ],
+      "psychological_triggers": [
+        "Fun",
+        "Humor",
+        "Joy",
+        "Playfulness"
+      ],
+      "description": "The Jester archetype brings joy and humor to serious topics, making content more engaging through playfulness and entertainment.",
+      "voice_guidance": {
+        "avoid_words": ["serious", "grave", "somber", "heavy"],
+        "preferred_hooks": ["Let's have fun with...", "Laugh at...", "Play with the idea", "Enjoy the ride"],
+        "controversy_tolerance": "low"
+      },
+      "incompatible_templates": ["8-The-Reality-Check", "3-The-Uncomfortable-Truth"]
+    },
+    "The Everyman": {
+      "core_desire": "Belonging and connection",
+      "voice": {
+        "traits": ["down-to-earth", "relatable", "friendly", "genuine", "humble"]
+      },
+      "twitter_templates": [
+        "8-The-Reality-Check",
+        "9-The-Solution-Benefit-Stack"
+      ],
+      "content_style": "Relatable, common-sense, accessible, authentic, humble",
+      "language_templates": [
+        "We all know...",
+        "Just like you...",
+        "Simple truth:",
+        "Real talk:"
+      ],
+      "psychological_triggers": [
+        "Belonging",
+        "Relatability",
+        "Authenticity",
+        "Common ground"
+      ],
+      "description": "The Everyman archetype connects through relatability and common ground, making complex topics accessible through authentic, down-to-earth communication.",
+      "voice_guidance": {
+        "avoid_words": ["elite", "exclusive", "superior", "sophisticated"],
+        "preferred_hooks": ["We all know...", "Just like you...", "Simple truth:", "Real talk:"],
+        "controversy_tolerance": "medium"
+      },
+      "incompatible_templates": []
+    }
+  }
+}
